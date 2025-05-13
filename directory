@@ -1,0 +1,14 @@
+/your_project_folder
+├── app.py
+├── isic_skin_classifier.h5 (your trained model)
+├── /samples
+│   ├── melanoma_sample.jpg
+│   ├── nevus_sample.jpg
+│   └── ... (other sample images)
+
+your_project/
+├── ISIC_2019/
+│   ├── ISIC_2019_Training_Input/  # Contains 25,331 JPG images
+│   │   ├── ISIC_0024306.jpg
+│   │   └── ...
+│   └── ISIC_2019_Training_GroundTruth.csv  # Contains image labels
